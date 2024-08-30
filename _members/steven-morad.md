@@ -1,6 +1,6 @@
 ---
 name: Steven Morad
-image: images/photo.jpg
+image: images/steven.jpg
 role: pi
 affiliation: University of Macau
 links:

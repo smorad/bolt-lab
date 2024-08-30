@@ -5,6 +5,8 @@
 
 We are the Behavior Optimization and Learning Theory (BOLT) Lab at the University of Macau. Our lab is dedicated to learning optimal behavior policies, with the ultimate goal of advancing the development of truly intelligent agents.
 
+Our current research areas include offline reinforcement learning, general value functions, world models, sequence modeling, POMDPs, and robotics.
+
 We are currently looking to hire new PhD students. If you are interested, please contact us below.
 
 {%
