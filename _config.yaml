@@ -1,17 +1,17 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+title: BOLT 
+subtitle: The Behavior Optimization and Learning Theory Laboratory
+description: The homepage for the BOLT Lab
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
+  email: smorad@um.edu.mo
+  orcid: 0000-0002-8413-2953
+  google-scholar: KvCgriAAAAAJ
+  github: smorad
   twitter: YourLabHandle
   youtube: YourLabChannel
 

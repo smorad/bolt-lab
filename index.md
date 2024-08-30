@@ -1,21 +1,17 @@
 ---
 ---
 
-# Lab Website Template
+# About Us
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+We are the Behavior Optimization and Learning Theory (BOLT) Lab at the University of Macau. Our lab is dedicated to learning optimal behavior policies, with the ultimate goal of advancing the development of truly intelligent agents.
+
+We are currently looking to hire new PhD students. If you are interested, please contact us below.
 
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
+  type="contact"
+  text="Contact"
+  link="contact"
 %}
 
 {% include section.html %}
@@ -23,8 +19,6 @@ Spend less time worrying about managing a website and citations, and more time r
 ## Highlights
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
   include button.html
@@ -46,8 +40,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
   include button.html
@@ -71,8 +63,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
   include button.html
