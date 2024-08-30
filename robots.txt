@@ -1,1 +1,1 @@
-Sitemap: http://bolt-lab.org/sitemap.xml
+Sitemap: http://www.bolt-lab.org/sitemap.xml
