@@ -16,6 +16,6 @@ nav:
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  tooltip="Our location on Apple Maps for easy navigation"
+  link="https://beta.maps.apple.com/?address=University+of+Macau%2C+Taipa%2C+Macao+SAR%2C+China&auid=16482014849046487753&ll=22.1325763%2C113.5431969&lsp=9902&q=University+of+Macau+-+Faculty+of+Science+and+Technology"
 %}
