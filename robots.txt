@@ -1,0 +1,1 @@
+Sitemap: https://smorad.github.io/bolt-lab/sitemap.xml
