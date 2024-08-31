@@ -3,6 +3,8 @@ name: Steven Morad
 image: images/steven.jpg
 role: pi
 affiliation: University of Macau
+aliases:
+  - Morad
 links:
   home-page: https://www.dangersteve.com
   scholar: KvCgriAAAAAJ
