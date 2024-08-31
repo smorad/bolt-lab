@@ -7,7 +7,7 @@ aliases:
   - Morad
 links:
   home-page: https://www.dangersteve.com
-  scholar: KvCgriAAAAAJ
+  google-scholar: KvCgriAAAAAJ
 ---
 
 Steven is the head of the BOLT lab. He did his PhD at the University of Cambridge, supervised by Prof. Amanda Prorok.
