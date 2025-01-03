@@ -45,3 +45,9 @@
   publisher: Advances in Neural Information Processing Systems
   type: paper
   date: "2023-9-22"
+
+- id: "https://openreview.net/forum?id=nA4Q983a1v"
+  title: "Recurrent Reinforcement Learning with Memoroids"
+  publisher: Advances in Neural Information Processing Systems
+  type: paper
+  date: "2024-9-26"

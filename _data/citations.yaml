@@ -109,3 +109,18 @@
   type: paper
   plugin: sources.py
   file: sources.yaml
+- id: https://openreview.net/forum?id=nA4Q983a1v
+  title: Recurrent Reinforcement Learning with Memoroids
+  authors:
+  - Steven Morad
+  - Chris Lu
+  - Ryan Kortvelesy
+  - Stephan Liwicki
+  - Jakob Nicolaus Foerster
+  - Amanda Prorok
+  publisher: Advances in Neural Information Processing Systems
+  date: '2024-09-26'
+  link: https://openreview.net/forum?id=nA4Q983a1v
+  type: paper
+  plugin: sources.py
+  file: sources.yaml

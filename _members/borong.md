@@ -1,8 +1,8 @@
 ---
-name: He Zhe
-image: images/hezhe.jpg
+name: Borong Zhang
+image: images/borong.jpg
 role: ms
 affiliation: University of Macau
 aliases:
-  - Zhe
+  - Borong
 ---
