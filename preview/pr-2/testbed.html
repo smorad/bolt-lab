@@ -1,0 +1,2907 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Testbed | BOLT</title>
+
+<link rel="icon" href="/preview/pr-2/images/icon.png">
+
+<meta name="title" content="Testbed">
+<meta name="description" content="The Behavior Optimization and Learning Theory Laboratory. The homepage for the BOLT Lab">
+
+<meta property="og:title" content="Testbed">
+<meta property="og:site_title" content="BOLT">
+<meta property="og:description" content="The Behavior Optimization and Learning Theory Laboratory. The homepage for the BOLT Lab">
+<meta property="og:url" content="/preview/pr-2">
+<meta property="og:image" content="/preview/pr-2/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Testbed">
+<meta property="twitter:description" content="The Behavior Optimization and Learning Theory Laboratory. The homepage for the BOLT Lab">
+<meta property="twitter:url" content="/preview/pr-2">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/preview/pr-2/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Testbed",
+    "description": "The Behavior Optimization and Learning Theory Laboratory. The homepage for the BOLT Lab",
+    "headline": "Testbed",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-2/images/icon.png" }
+    },
+    "url": "/preview/pr-2"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/preview/pr-2/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-2/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-2/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-2/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-2/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-2/_scripts/search.js"></script>
+
+  <script src="/preview/pr-2/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-2/_scripts/table-wrap.js"></script>
+
+  <script src="/preview/pr-2/_scripts/tooltip.js"></script>
+
+
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg')" data-dark="false">
+  <a href="/preview/pr-2/" class="home">
+    
+      <span class="logo">
+        
+          <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="363.6824" height="482.89273" xml:space="preserve" overflow="hidden" version="1.1" id="svg43" viewbox="0 0 363.68241 482.89271" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs25"><radialgradient cx="105294" cy="105294" r="202790" fx="105294" fy="105294" gradientunits="userSpaceOnUse" spreadmethod="pad" id="stroke0" gradienttransform="matrix(3.60892e-4,0,0,3.60892e-4,2485,735.9966)"><stop offset="0" stop-color="#F0F8FD" stop-opacity="1" id="stop1"></stop><stop offset="0.29" stop-color="#F0F8FD" stop-opacity="1" id="stop2"></stop><stop offset="0.65" stop-color="#E7C52B" stop-opacity="1" id="stop3"></stop><stop offset="0.83" stop-color="#F8CE45" stop-opacity="1" id="stop4"></stop><stop offset="1" stop-color="#E6BD4C" stop-opacity="1" id="stop5"></stop></radialgradient><radialgradient cx="105294" cy="105294" r="202790" fx="105294" fy="105294" gradientunits="userSpaceOnUse" spreadmethod="pad" id="stroke1" gradienttransform="matrix(3.60892e-4,0,0,3.60892e-4,3150.5169,869.4983)"><stop offset="0" stop-color="#F0F8FD" stop-opacity="1" id="stop6"></stop><stop offset="0.29" stop-color="#F0F8FD" stop-opacity="1" id="stop7"></stop><stop offset="0.65" stop-color="#E7C52B" stop-opacity="1" id="stop8"></stop><stop offset="0.83" stop-color="#F8CE45" stop-opacity="1" id="stop9"></stop><stop offset="1" stop-color="#E6BD4C" stop-opacity="1" id="stop10"></stop></radialgradient><radialgradient cx="105294" cy="103909" r="201813" gradientunits="userSpaceOnUse" spreadmethod="pad" id="stroke2" gradienttransform="matrix(3.60892e-4,0,0,3.60892e-4,2485,1270.0034)"><stop offset="0" stop-color="#F0F8FD" stop-opacity="1" id="stop11"></stop><stop offset="0.29" stop-color="#F0F8FD" stop-opacity="1" id="stop12"></stop><stop offset="0.65" stop-color="#E7C52B" stop-opacity="1" id="stop13"></stop><stop offset="0.83" stop-color="#F8CE45" stop-opacity="1" id="stop14"></stop><stop offset="1" stop-color="#E6BD4C" stop-opacity="1" id="stop15"></stop></radialgradient><radialgradient cx="105294" cy="105294" r="202790" fx="105294" fy="105294" gradientunits="userSpaceOnUse" spreadmethod="pad" id="stroke4" gradienttransform="matrix(3.60892e-4,0,0,3.60892e-4,2485,1003)"><stop offset="0" stop-color="#F0F8FD" stop-opacity="1" id="stop21"></stop><stop offset="0.29" stop-color="#F0F8FD" stop-opacity="1" id="stop22"></stop><stop offset="0.65" stop-color="#E7C52B" stop-opacity="1" id="stop23"></stop><stop offset="0.83" stop-color="#F8CE45" stop-opacity="1" id="stop24"></stop><stop offset="1" stop-color="#E6BD4C" stop-opacity="1" id="stop25"></stop></radialgradient><radialgradient cx="105294" cy="105294" r="202790" fx="105294" fy="105294" gradientunits="userSpaceOnUse" spreadmethod="pad" id="stroke1-55" gradienttransform="matrix(3.60892e-4,0,0,3.60892e-4,3150.5169,1136.5017)"><stop offset="0" stop-color="#F0F8FD" stop-opacity="1" id="stop6-8"></stop><stop offset="0.29" stop-color="#F0F8FD" stop-opacity="1" id="stop7-1"></stop><stop offset="0.65" stop-color="#E7C52B" stop-opacity="1" id="stop8-4"></stop><stop offset="0.83" stop-color="#F8CE45" stop-opacity="1" id="stop9-71"></stop><stop offset="1" stop-color="#E6BD4C" stop-opacity="1" id="stop10-38"></stop></radialgradient><clippath clippathunits="userSpaceOnUse" id="clipPath197"><path style="color:#000000;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;stroke-dasharray:none" d="m 2450.0698,1775.322 691.4293,-691.4262 -205.8229,-118.60281 363.5249,-629.64602 -37.7553,-28.97037 -691.4273,691.42829 205.823,118.60181 -363.527,629.6449 z m 94.9632,-162.8446 296.3987,-513.3752 -193.2006,-111.32742 518.2505,-518.25148 -296.3957,513.37313 193.2006,111.32947 z" id="path197"></path><path id="lpe_path-effect198" style="color:#000000;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;stroke-dasharray:none" class="powerclip" d="M 2268.2256,502.09015 H 3358.7495 V 1579.9099 H 2268.2256 Z m 181.8442,1273.23185 691.4293,-691.4262 -205.8229,-118.60281 363.5249,-629.64602 -37.7553,-28.97037 -691.4273,691.42829 205.823,118.60181 -363.527,629.6449 z m 94.9632,-162.8446 518.2535,-518.2515 -193.2006,-111.32947 296.3957,-513.37313 -518.2505,518.25148 193.2006,111.32742 z"></path></clippath><clippath clippathunits="userSpaceOnUse" id="clipPath198"><path style="color:#000000;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;stroke-dasharray:none" d="m 2450.0698,1775.322 691.4293,-691.4262 -205.8229,-118.60281 363.5249,-629.64602 -37.7553,-28.97037 -691.4273,691.42829 205.823,118.60181 -363.527,629.6449 z m 94.9632,-162.8446 296.3987,-513.3752 -193.2006,-111.32742 518.2505,-518.25148 -296.3957,513.37313 193.2006,111.32947 z" id="path198"></path><path id="lpe_path-effect199" style="color:#000000;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;stroke-dasharray:none" class="powerclip" d="m 2549.2565,757.29295 h 613.0039 v 566.91625 h -613.0039 z m -99.1867,1018.02905 691.4293,-691.4262 -205.8229,-118.60281 363.5249,-629.64602 -37.7553,-28.97037 -691.4273,691.42829 205.823,118.60181 -363.527,629.6449 z m 94.9632,-162.8446 518.2535,-518.2515 -193.2006,-111.32947 296.3957,-513.37313 -518.2505,518.25148 193.2006,111.32742 z"></path></clippath></defs><g transform="matrix(2.0000007,0,0,2.0000007,-4456.7105,-647.29479)" id="g43"><g id="g87" style="display:inline" clip-path="url(#clipPath198)" transform="matrix(0.1682898,0,0,0.1682898,1845.7938,269.18072)"><path style="fill:none;stroke:#0f9ed5;stroke-width:24;stroke-dasharray:none;stroke-opacity:1" d="m 2561,773.9966 589.5169,133.5017" id="path83"></path><path style="fill:none;stroke:#0f9ed5;stroke-width:24;stroke-dasharray:none;stroke-opacity:1" d="M 3150.5169,907.4983 2561,1041 l 589.5169,133.5017" id="path84"></path><path style="fill:none;stroke:#0f9ed5;stroke-width:24;stroke-dasharray:none;stroke-opacity:1" d="m 2561,1307.5034 589.5169,-133.0017" id="path85"></path><path style="fill:none;stroke:#0f9ed5;stroke-width:24;stroke-dasharray:none;stroke-opacity:1" d="m 2561,773.9966 589.5169,400.5051" id="path86"></path><path style="fill:none;stroke:#0f9ed5;stroke-width:24;stroke-dasharray:none;stroke-opacity:1" d="M 2561,1307.5034 3150.5169,907.4983" id="path87"></path></g><g id="g106" style="display:inline" transform="matrix(0.1682898,0,0,0.1682898,1845.7938,269.18072)"><path d="m 2485,773.9966 c 0,-20.987 17.01,-38 38,-38 20.99,0 38,17.013 38,38 0,20.987 -17.01,38 -38,38 -20.99,0 -38,-17.013 -38,-38 z" stroke="url(#stroke0)" stroke-width="27.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="8" fill="none" fill-rule="evenodd" id="path34" style="stroke:url(#stroke0)"></path><path d="m 3150.5169,907.4983 c 0,-20.987 17.01,-38 38,-38 20.99,0 38,17.013 38,38 0,20.987 -17.01,38 -38,38 -20.99,0 -38,-17.013 -38,-38 z" stroke="url(#stroke1)" stroke-width="27.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="8" fill="none" fill-rule="evenodd" id="path35" style="stroke:url(#stroke1)"></path><path d="m 3150.5169,1174.5017 c 0,-20.987 17.01,-38 38,-38 20.99,0 38,17.013 38,38 0,20.987 -17.01,38 -38,38 -20.99,0 -38,-17.013 -38,-38 z" stroke="url(#stroke1)" stroke-width="27.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="8" fill="none" fill-rule="evenodd" id="path35-4" style="stroke:url(#stroke1-55)"></path><path d="m 2485,1041 c 0,-20.99 17.01,-38 38,-38 20.99,0 38,17.01 38,38 0,20.99 -17.01,38 -38,38 -20.99,0 -38,-17.01 -38,-38 z" stroke="url(#stroke4)" stroke-width="27.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="8" fill="none" fill-rule="evenodd" id="path38" style="stroke:url(#stroke4)"></path><path d="m 2485,1307.5034 c 0,-20.71 17.01,-37.5 38,-37.5 20.99,0 38,16.79 38,37.5 0,20.71 -17.01,37.5 -38,37.5 -20.99,0 -38,-16.79 -38,-37.5 z" stroke="url(#stroke2)" stroke-width="27.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="8" fill="none" fill-rule="evenodd" id="path36" style="stroke:url(#stroke2)"></path></g><path style="display:inline;fill:none;stroke:#0f9ed5;stroke-width:24;stroke-dasharray:none;stroke-opacity:1" id="path88" clip-path="url(#clipPath197)" d="M 3341.7495,1041 A 528.2619,521.90985 0 0 1 2813.4875,1562.9099 528.2619,521.90985 0 0 1 2285.2256,1041 528.2619,521.90985 0 0 1 2813.4875,519.09015 528.2619,521.90985 0 0 1 3341.7495,1041 Z" transform="matrix(0.1682898,0,0,0.1682898,1845.7938,269.18072)"></path><g id="g143" transform="matrix(-0.08758955,0,0,-0.08758955,2307.5769,821.58317)"><g id="g144"><path id="path143-5" style="fill:#e9d262;fill-opacity:1;stroke:none;stroke-width:48;stroke-dasharray:none;stroke-opacity:1" d="M -148.7272,4163.9329 -1026.8452,5684.8778 259.09611,4398.9365 Z M -280.81824,4449.2577 597.29971,2928.3128 -688.64158,4214.2541 Z"></path></g></g><g id="g143-5" transform="matrix(-0.08758955,0,0,-0.08758955,2307.5769,821.58317)" style="fill:#000000;fill-opacity:1;stroke:#62d50f;stroke-width:19.2135;stroke-dasharray:none;stroke-opacity:1"><g id="g144-7" style="fill:#000000;fill-opacity:1;stroke:#62d50f;stroke-width:19.2135;stroke-dasharray:none;stroke-opacity:1"></g></g></g></svg>
+
+        
+      </span>
+    
+    
+      <span class="title-text" data-tooltip="Home">
+        
+          <span class="title">BOLT</span>
+        
+        
+          <span class="subtitle">The Behavior Optimization and Learning Theory Laboratory</span>
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/preview/pr-2/research/" data-tooltip="Published works">
+          Research
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/projects/" data-tooltip="Software, datasets, and more">
+          Projects
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/blog/" data-tooltip="Musings and miscellany">
+          Blog
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 id="testbed">Testbed</h1>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h1 id="basic-formatting">Basic formatting</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p><a href="https://some-website.org/">External link</a></p>
+
+<p><a href="team">Internal link</a></p>
+
+<p><em>italic text</em></p>
+
+<p><strong>bold text</strong></p>
+
+<p><del>strike-through text</del></p>
+
+<p><br>
+<br>
+Text with extra blank lines above and below
+<br>
+<br></p>
+
+<ul>
+  <li>list item a</li>
+  <li>list item b</li>
+  <li>list item c</li>
+</ul>
+
+<ol>
+  <li>ordered list item 1</li>
+  <li>ordered list item 2</li>
+  <li>ordered list item 3</li>
+</ol>
+
+<!--  -->
+
+<ol>
+  <li>top level list item
+    <ul>
+      <li>nested list item
+        <ol>
+          <li>even deeper nested list item</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<p>Plain image:</p>
+
+<p><img src="/images/photo.jpg" alt="plain image"></p>
+
+<h1 id="heading-1">Heading 1</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<h2 id="heading-2">Heading 2</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<h3 id="heading-3">Heading 3</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<h4 id="heading-4">Heading 4</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<h5 id="heading-5">Heading 5</h5>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<h6 id="heading-6">Heading 6</h6>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<hr>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">TABLE</th>
+      <th style="text-align: center">Game 1</th>
+      <th style="text-align: center">Game 2</th>
+      <th style="text-align: center">Game 3</th>
+      <th style="text-align: right">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Anna</td>
+      <td style="text-align: center">144</td>
+      <td style="text-align: center">123</td>
+      <td style="text-align: center">218</td>
+      <td style="text-align: right">485</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Bill</td>
+      <td style="text-align: center">90</td>
+      <td style="text-align: center">175</td>
+      <td style="text-align: center">120</td>
+      <td style="text-align: right">385</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Cara</td>
+      <td style="text-align: center">102</td>
+      <td style="text-align: center">214</td>
+      <td style="text-align: center">233</td>
+      <td style="text-align: right">549</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>It was the best of times it was the worst of times.
+It was the age of wisdom, it was the age of foolishness.
+It was the spring of hope, it was the winter of despair.</p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// some code with syntax highlighting</span>
+<span class="kd">const</span> <span class="nx">popup</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">#popup</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">popup</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">100%</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">popup</span><span class="p">.</span><span class="nx">innerText</span> <span class="o">=</span>
+  <span class="dl">"</span><span class="s2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>This sentence has <code class="language-plaintext highlighter-rouge">inline code</code>, useful for making references to variables, packages, versions, etc. within a sentence.</p>
+
+<p class="left">Lorem ipsum dolor sit amet.</p>
+<p class="center">Consectetur adipiscing elit.</p>
+<p class="right">Sed do eiusmod tempor incididunt.</p>
+
+<details>
+  <summary>Hidden content</summary>
+
+  <p><strong>Lorem</strong> <em>ipsum</em> <a href="">dolor sit amet</a>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+</details>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h1 id="jekyll-spaceship">Jekyll Spaceship</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Stage</th>
+      <th style="text-align: right">Direct Products</th>
+      <th style="text-align: right">ATP Yields</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right" rowspan="2">Glycolysis
+<br>
+</td>
+      <td style="text-align: right">2 ATP</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      
+      <td style="text-align: right">2 NADH</td>
+      <td style="text-align: right">3–5 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Pyruvaye oxidation</td>
+      <td style="text-align: right">2 NADH</td>
+      <td style="text-align: right">5 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right" rowspan="3">Citric acid cycle
+<br><br>
+</td>
+      <td style="text-align: right">2 ATP</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      
+      <td style="text-align: right">6 NADH</td>
+      <td style="text-align: right">15 ATP</td>
+    </tr>
+    <tr>
+      
+      <td style="text-align: right">2 FADH</td>
+      <td style="text-align: right">3 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">30–32 ATP</td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>$ a * b = c ^ b $</p>
+
+<p>$ 2^{\frac{n-1}{3}} $</p>
+
+<p>$ \int_a^b f(x)\,dx. $</p>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoicGllIHRpdGxlIFBldHMgYWRvcHRlZCBieSB2b2x1bnRlZXJzXG5cIkRvZ3NcIiA6IDM4NlxuXCJDYXRzXCIgOiA4NVxuXCJSYXRzXCIgOiAzNSIsIm1lcm1haWQiOm51bGx9"></p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h1 id="components">Components</h1>
+
+<h2 id="section">Section</h2>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="1" style="--image: url('/preview/pr-2/images/background.jpg')">
+    <!--
+  background: images/background.jpg;
+  dark: ;
+  size: 1;
+-->
+
+<p>Section, <code class="language-plaintext highlighter-rouge">background</code></p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="1" data-dark="true">
+    <!--
+  background: ;
+  dark: true;
+  size: 1;
+-->
+
+<p>Section, <code class="language-plaintext highlighter-rouge">dark=true</code></p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="2" data-dark="true" style="--image: url('/preview/pr-2/images/background.jpg')">
+    <!--
+  background: images/background.jpg;
+  dark: true;
+  size: 2;
+-->
+
+<p>Section, <code class="language-plaintext highlighter-rouge">background</code> <code class="language-plaintext highlighter-rouge">dark=true</code></p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="wide">
+    <!--
+  background: ;
+  dark: ;
+  size: wide;
+-->
+
+<p>Section, <code class="language-plaintext highlighter-rouge">size=wide</code></p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="full">
+    <!--
+  background: ;
+  dark: ;
+  size: full;
+-->
+
+<p>Section, <code class="language-plaintext highlighter-rouge">size=full</code> w/ figure</p>
+
+<figure class="figure">
+  <a href="/preview/pr-2/team" class="figure-image" aria-label="figure link">
+    <img src="https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZsMjYyODgwODcyMjYtaW1hZ2VfMS1rb3k1Zzkxay5qcGc.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="figure">Figure</h2>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="Lorem ipsum .">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="Lorem ipsum ." loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      <em>Lorem</em> <strong>ipsum</strong>.
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="Lorem ipsum . px width">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: 400px;
+        max-height: unset;
+      " alt="Lorem ipsum . px width" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      <em>Lorem</em> <strong>ipsum</strong>. <code class="language-plaintext highlighter-rouge">px</code> width
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/preview/pr-2/team" class="figure-image" aria-label="Lorem ipsum . width">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: 50%;
+        max-height: unset;
+      " alt="Lorem ipsum . width" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      <em>Lorem</em> <strong>ipsum</strong>. <code class="language-plaintext highlighter-rouge">%</code> width
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/preview/pr-2/team" class="figure-image" aria-label="Lorem ipsum . px height">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: auto;
+        max-height: 200px;
+      " alt="Lorem ipsum . px height" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      <em>Lorem</em> <strong>ipsum</strong>. <code class="language-plaintext highlighter-rouge">px</code> height
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/preview/pr-2/team" class="figure-image" aria-label="Lorem ipsum . px width, svg">
+    <img src="/preview/pr-2/images/fallback.svg" style="
+        width: 400px;
+        max-height: unset;
+      " alt="Lorem ipsum . px width, svg" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      <em>Lorem</em> <strong>ipsum</strong>. <code class="language-plaintext highlighter-rouge">px</code> width, svg
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/preview/pr-2/team" class="figure-image" aria-label="Lorem ipsum . width, svg">
+    <img src="/preview/pr-2/images/fallback.svg" style="
+        width: 50%;
+        max-height: unset;
+      " alt="Lorem ipsum . width, svg" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      <em>Lorem</em> <strong>ipsum</strong>. <code class="language-plaintext highlighter-rouge">%</code> width, svg
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/preview/pr-2/team" class="figure-image" aria-label="Lorem ipsum . px height, svg">
+    <img src="/preview/pr-2/images/fallback.svg" style="
+        width: auto;
+        max-height: 200px;
+      " alt="Lorem ipsum . px height, svg" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      <em>Lorem</em> <strong>ipsum</strong>. <code class="language-plaintext highlighter-rouge">px</code> height, svg
+
+    </figcaption>
+  
+</figure>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="button">Button</h2>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview/pr-2" data-tooltip="GitHub" data-style="" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>GitHub</span>
+      
+    </a>
+  </div>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview/pr-2" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>GitHub</span>
+      
+    </a>
+  </div>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview/pr-2" data-tooltip="Override tooltip" data-style="" aria-label="Override tooltip">
+      <i class="icon fa-brands fa-youtube"></i>
+      
+        <span>Override Text</span>
+      
+    </a>
+  </div>
+
+<div class="button-wrapper">
+    <a class="button" href="/preview/pr-2" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+<div class="button-wrapper">
+    <a class="button" href="https://github.com/github-handle" data-tooltip="GitHub" data-style="" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="icon">Icon</h2>
+
+<p><i class="icon fa-solid fa-bacteria"></i>
+<i class="icon fa-solid fa-virus"></i>
+<i class="icon fa-solid fa-flask"></i>
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="-450 -250 900 500">  <g transform="scale(0.9)">    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        M -125 125         L -125 -125        L 0 45        L 125 -125        L 125 125      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        M -200 -250        L -330 0         L -200 250      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        m 200 250         L 330 0        L 200 -250      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="50" d="        M -330 0        L -370 0      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="50" d="        M 330 0        L 370 0      "></path>    <circle cx="-455" cy="0" r="30" fill="none" stroke="currentColor" stroke-width="30"></circle>    <circle cx="455" cy="0" r="30" fill="none" stroke="currentColor" stroke-width="30"></circle>  </g></svg></span></p>
+
+<p><i class="icon fa-brands fa-github"></i> Lorem
+<i class="icon fa-solid fa-microscope"></i> Ipsum
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="-450 -250 900 500">  <g transform="scale(0.9)">    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        M -125 125         L -125 -125        L 0 45        L 125 -125        L 125 125      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        M -200 -250        L -330 0         L -200 250      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        m 200 250         L 330 0        L 200 -250      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="50" d="        M -330 0        L -370 0      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="50" d="        M 330 0        L 370 0      "></path>    <circle cx="-455" cy="0" r="30" fill="none" stroke="currentColor" stroke-width="30"></circle>    <circle cx="455" cy="0" r="30" fill="none" stroke="currentColor" stroke-width="30"></circle>  </g></svg></span> Dolor</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="feature">Feature</h2>
+
+<div class="feature">
+  <a href="/preview/pr-2/team" class="feature-image" aria-label="Title">
+    <img src="/preview/pr-2/images/icon.png" loading="lazy" alt="Title" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Title</p>
+    
+    
+<p><em>Lorem</em> <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+  </div>
+</div>
+
+<div class="feature" data-flip="">
+  <a class="feature-image" aria-label="Title">
+    <img src="/preview/pr-2/images/icon.png" loading="lazy" alt="Title" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Title</p>
+    
+    
+<p><em>Lorem</em> <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+  </div>
+</div>
+
+<div class="feature">
+  <a href="/preview/pr-2/team" class="feature-image" aria-label="feature link">
+    <img src="" loading="lazy" alt="feature image" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+    
+
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="list">List</h2>
+
+<h3 id="list-citations">List citations</h3>
+
+<h3 id="2024">2024</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://openreview.net/forum?id=nA4Q983a1v" class="citation-title">
+        Recurrent Reinforcement Learning with Memoroids
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven Morad, Chris Lu, Ryan Kortvelesy, Stephan Liwicki, Jakob Nicolaus Foerster, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Advances in Neural Information Processing Systems</span>
+         · 
+        <span class="citation-date">26 Sep 2024</span>
+         · 
+        <span class="citation-id">https://openreview.net/forum?id=nA4Q983a1v</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2023">2023</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://openreview.net/forum?id=KTfAtro6vP" class="citation-title">
+        Reinforcement Learning with Fast and Forgetful Memory
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven Morad, Ryan Kortvelesy, Stephan Liwicki, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Advances in Neural Information Processing Systems</span>
+         · 
+        <span class="citation-date">22 Sep 2023</span>
+         · 
+        <span class="citation-id">https://openreview.net/forum?id=KTfAtro6vP</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://openreview.net/forum?id=JMrIeKjTAe" class="citation-title">
+        Generalised f-Mean Aggregation for Graph Neural Networks
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ryan Kortvelesy, Steven Morad, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Advances in Neural Information Processing Systems</span>
+         · 
+        <span class="citation-date">22 Sep 2023</span>
+         · 
+        <span class="citation-id">https://openreview.net/forum?id=JMrIeKjTAe</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://dl.acm.org/doi/abs/10.5555/3545946.3598823" class="citation-title">
+        Permutation-Invariant Set Autoencoders with Fixed-Size Embeddings for Multi-Agent Learning
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">International Conference on Autonomous Agents and Multiagent Systems</span>
+         · 
+        <span class="citation-date">30 May 2023</span>
+         · 
+        <span class="citation-id">https://dl.acm.org/doi/abs/10.5555/3545946.3598823</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://openreview.net/forum?id=chDrutUTs0K" class="citation-title">
+        POPGym: Benchmarking Partially Observable Reinforcement Learning
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven Morad, Ryan Kortvelesy, Matteo Bettini, Stephan Liwicki, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Eleventh International Conference on Learning Representations</span>
+         · 
+        <span class="citation-date">01 Feb 2023</span>
+         · 
+        <span class="citation-id">https://openreview.net/forum?id=chDrutUTs0K</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2022">2022</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gt8d6n" class="citation-title">
+        A Framework for Real-World Multi-Robot Systems Running Decentralized GNN-Based Policies
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jan Blumenkamp, Steven Morad, Jennifer Gielis, Qingbiao Li, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">2022 International Conference on Robotics and Automation (ICRA)</span>
+         · 
+        <span class="citation-date">23 May 2022</span>
+         · 
+        <span class="citation-id">doi:10.1109/ICRA46639.2022.9811744</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2021">2021</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gjzmwg" class="citation-title">
+        Embodied Visual Navigation With Automatic Curriculum Learning in Real Environments
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven D. Morad, Roberto Mecca, Rudra P. K. Poudel, Stephan Liwicki, Roberto Cipolla
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">IEEE Robotics and Automation Letters</span>
+         · 
+        <span class="citation-date">01 Apr 2021</span>
+         · 
+        <span class="citation-id">doi:10.1109/LRA.2020.3048662</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2020">2020</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gt8d34" class="citation-title">
+        Improving Visual Feature Extraction in Glacial Environments
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven D. Morad, Jeremy Nash, Shoya Higa, Russell Smith, Aaron Parness, Kobus Barnard
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">IEEE Robotics and Automation Letters</span>
+         · 
+        <span class="citation-date">01 Apr 2020</span>
+         · 
+        <span class="citation-id">doi:10.1109/LRA.2019.2959490</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2019">2019</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gt8d6p" class="citation-title">
+        A Spring Propelled Extreme Environment Robot for Off-World Cave Exploration
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven D. Morad, Thomas Dailey, Leonard Dean Vance, Jekan Thangavelautham
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">2019 IEEE Aerospace Conference</span>
+         · 
+        <span class="citation-date">01 Mar 2019</span>
+         · 
+        <span class="citation-id">doi:10.1109/AERO.2019.8741609</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<h3 id="list-projects">List projects</h3>
+
+<div class="card" data-style="">
+  <a aria-label="Reinforcement Learning" class="card-image">
+    <img src="" alt="Reinforcement Learning" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Reinforcement Learning
+    </a>
+    
+
+    
+      <span class="card-subtitle">Solving higher-level tasks</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a aria-label="Memory and Sequence Modeling" class="card-image">
+    <img src="" alt="Memory and Sequence Modeling" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Memory and Sequence Modeling
+    </a>
+    
+
+    
+      <span class="card-subtitle">Making the intractable, tractable</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a aria-label="Robotics" class="card-image">
+    <img src="" alt="Robotics" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Robotics
+    </a>
+    
+
+    
+      <span class="card-subtitle">Intelligent autonomy</span>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<hr>
+
+<h3 id="list-team-members">List team members</h3>
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-2/members/0_steven-morad.html" class="portrait" data-style="" aria-label="Steven Morad">
+    
+      <i class="icon fa-solid fa-microscope"></i>
+    
+
+    <img src="/preview/pr-2/images/steven.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Steven Morad
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Principal Investigator
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        University of Macau
+      </span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-2/members/3_yutao.html" class="portrait" data-style="" aria-label="Yutao Chen">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/preview/pr-2/images/yutao.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Yutao Chen
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        University of Macau
+      </span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-2/members/4_borong.html" class="portrait" data-style="" aria-label="Borong Zhang">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/preview/pr-2/images/borong.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Borong Zhang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Master's Student
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        University of Macau
+      </span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-2/members/4_hezhe.html" class="portrait" data-style="" aria-label="He Zhe">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/preview/pr-2/images/hezhe.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        He Zhe
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Master's Student
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        University of Macau
+      </span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-2/members/4_zekang.html" class="portrait" data-style="" aria-label="Wang Zekang">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/preview/pr-2/images/zekang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Wang Zekang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Master's Student
+      </span>
+    
+
+    
+      <span class="portrait-affiliation">
+        University of Macau
+      </span>
+    
+  </a>
+</div>
+
+<hr>
+
+<h3 id="list-blog-posts">List blog posts</h3>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="citation">Citation</h2>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        Manual title
+      </a>
+
+      <div class="citation-authors" data-tooltip="Manual authors" tabindex="0">
+        Manual authors
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="card">Card</h2>
+
+<div class="card" data-style="">
+  <a href="https://nasa.gov/" aria-label="A Large Card" class="card-image">
+    <img src="/preview/pr-2/images/icon.png" alt="A Large Card" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://nasa.gov/" data-tooltip="A cool tooltip" class="card-title">
+        A Large Card
+    </a>
+    
+
+    
+      <span class="card-subtitle">A cool card</span>
+    
+
+    
+      <p>
+        A cool description
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/preview/pr-2/">
+    
+      <a href="/?search=%22tag:%20manual-tag%22" class="tag" data-tooltip='Show items with the tag "manual-tag"'>
+        manual-tag
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="small">
+  <a aria-label="A Small Card" class="card-image">
+    <img src="/preview/pr-2/images/icon.png" alt="A Small Card" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a data-tooltip="A cool tooltip" class="card-title">
+        A Small Card
+    </a>
+    
+
+    
+      <span class="card-subtitle">A cool card</span>
+    
+
+    
+      <p>
+        <em>Lorem</em> <strong>ipsum</strong>
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/preview/pr-2/">
+    
+      <a href="/?search=%22tag:%20manual-tag%22" class="tag" data-tooltip='Show items with the tag "manual-tag"'>
+        manual-tag
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="portrait">Portrait</h2>
+
+<div class="portrait-wrapper">
+  <a class="portrait" data-style="" aria-label="member link">
+    
+
+    <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+
+    
+
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a class="portrait" data-style="small" aria-label="member link">
+    
+
+    <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+
+    
+
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a class="portrait" data-style="small" aria-label="Manual name">
+    
+
+    <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Manual name
+      </span>
+    
+
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a class="portrait" data-style="small" aria-label="member link">
+    
+
+    <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+
+    
+
+    
+
+    
+  </a>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="post-excerpt">Post Excerpt</h2>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href=""></a>
+
+      <div class="post-info">
+  
+
+  
+  
+
+  
+
+  
+</div>
+
+
+
+
+      
+      
+      <p data-search="">
+        
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="">Manual title</a>
+
+      <div class="post-info">
+  
+    
+    
+      <span data-tooltip="Author">
+        <i class="icon fa-solid fa-feather-pointed"></i>
+        <span>Manual author</span>
+      </span>
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>February 20, 2020</span>
+    </span>
+  
+
+  
+</div>
+
+
+
+
+      
+      
+      <p data-search="">
+        
+      </p>
+    </div>
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="alert">Alert</h2>
+
+<div class="alert" style="--color: #d946ef">
+  
+  <i class="icon fa-solid fa-lightbulb"></i>
+  <div class="alert-content">
+    <p><strong>Tip</strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+  </div>
+</div>
+
+<div class="alert" style="--color: #6366f1">
+  
+  <i class="icon fa-solid fa-circle-question"></i>
+  <div class="alert-content">
+    <p><strong>Help</strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+  </div>
+</div>
+
+<div class="alert" style="--color: #0ea5e9">
+  
+  <i class="icon fa-solid fa-circle-info"></i>
+  <div class="alert-content">
+    <p><strong>Info</strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+  </div>
+</div>
+
+<div class="alert" style="--color: #22c55e">
+  
+  <i class="icon fa-solid fa-circle-check"></i>
+  <div class="alert-content">
+    <p><strong>Success</strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+  </div>
+</div>
+
+<div class="alert" style="--color: #F59E0B">
+  
+  <i class="icon fa-solid fa-circle-exclamation"></i>
+  <div class="alert-content">
+    <p><strong>Warning</strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+  </div>
+</div>
+
+<div class="alert" style="--color: #ef4444">
+  
+  <i class="icon fa-solid fa-ban"></i>
+  <div class="alert-content">
+    <p><strong>Error</strong> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="tags">Tags</h2>
+
+<div class="tags" data-repo="greenelab/lab-website-template" data-link="/preview/pr-2/blog">
+    
+      <a href="blog?search=%22tag:%20ovarian-cancer%22" class="tag" data-tooltip='Show items with the tag "ovarian-cancer"'>
+        ovarian-cancer
+      </a>
+    
+      <a href="blog?search=%22tag:%20dataset%22" class="tag" data-tooltip='Show items with the tag "dataset"'>
+        dataset
+      </a>
+    
+      <a href="blog?search=%22tag:%20gene-expression%22" class="tag" data-tooltip='Show items with the tag "gene-expression"'>
+        gene-expression
+      </a>
+    
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="float">Float</h2>
+
+<h3 id="figures">Figures</h3>
+
+<div class="float">
+  
+<figure class="figure">
+  <a class="figure-image" aria-label="Caption">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: 200px;
+        max-height: unset;
+      " alt="Caption" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Caption
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="float" data-clear="">
+  
+
+</div>
+
+<h3 id="code">Code</h3>
+
+<div class="float" data-flip="">
+  
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">test</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+
+</div>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis. Id aliquet lectus proin nibh nisl condimentum id venenatis a. Tristique magna sit amet purus gravida quis blandit turpis cursus. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. A cras semper auctor neque vitae tempus quam pellentesque nec. At tellus at urna condimentum mattis pellentesque. Ipsum consequat nisl vel pretium. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Integer vitae justo eget magna fermentum iaculis eu non diam. Mus mauris vitae ultricies leo integer malesuada nunc vel. Leo integer malesuada nunc vel risus. Ornare arcu odio ut sem nulla pharetra. Purus semper eget duis at tellus at urna condimentum. Enim neque volutpat ac tincidunt vitae semper quis lectus.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="grid">Grid</h2>
+
+<h3 id="regular">Regular</h3>
+
+<p>With Markdown images</p>
+
+<div class="grid" data-style="">
+  
+<p><img src="https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&amp;rev=2" alt="image"></p>
+
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg" alt="image"></p>
+
+<p><img src="https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp" alt="image"></p>
+
+<p><img src="/preview/pr-2/images/icon.png" alt="image"></p>
+
+<p><img src="/preview/pr-2/images/icon.png" alt="image"></p>
+
+<p><img src="/preview/pr-2/images/icon.png" alt="image"></p>
+
+</div>
+
+<h3 id="square">Square</h3>
+
+<p>With figure components</p>
+
+<div class="grid" data-style="square">
+  
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&amp;rev=2" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="https://iiif.elifesciences.org/lax:32822/elife-32822-fig8-v3.tif/full/863,/0/default.webp" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+
+</div>
+
+<h3 id="grid-of-citations">Grid of citations</h3>
+
+<div class="grid" data-style="">
+  
+<h3 id="2024">2024</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://openreview.net/forum?id=nA4Q983a1v" class="citation-image" aria-label="Recurrent Reinforcement Learning with Memoroids">
+        <img src="" alt="Recurrent Reinforcement Learning with Memoroids" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://openreview.net/forum?id=nA4Q983a1v" class="citation-title">
+        Recurrent Reinforcement Learning with Memoroids
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven Morad, Chris Lu, Ryan Kortvelesy, Stephan Liwicki, Jakob Nicolaus Foerster, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Advances in Neural Information Processing Systems</span>
+         · 
+        <span class="citation-date">26 Sep 2024</span>
+         · 
+        <span class="citation-id">https://openreview.net/forum?id=nA4Q983a1v</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2023">2023</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://openreview.net/forum?id=KTfAtro6vP" class="citation-image" aria-label="Reinforcement Learning with Fast and Forgetful Memory">
+        <img src="" alt="Reinforcement Learning with Fast and Forgetful Memory" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://openreview.net/forum?id=KTfAtro6vP" class="citation-title">
+        Reinforcement Learning with Fast and Forgetful Memory
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven Morad, Ryan Kortvelesy, Stephan Liwicki, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Advances in Neural Information Processing Systems</span>
+         · 
+        <span class="citation-date">22 Sep 2023</span>
+         · 
+        <span class="citation-id">https://openreview.net/forum?id=KTfAtro6vP</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://openreview.net/forum?id=JMrIeKjTAe" class="citation-image" aria-label="Generalised f-Mean Aggregation for Graph Neural Networks">
+        <img src="" alt="Generalised f-Mean Aggregation for Graph Neural Networks" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://openreview.net/forum?id=JMrIeKjTAe" class="citation-title">
+        Generalised f-Mean Aggregation for Graph Neural Networks
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ryan Kortvelesy, Steven Morad, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Advances in Neural Information Processing Systems</span>
+         · 
+        <span class="citation-date">22 Sep 2023</span>
+         · 
+        <span class="citation-id">https://openreview.net/forum?id=JMrIeKjTAe</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://dl.acm.org/doi/abs/10.5555/3545946.3598823" class="citation-image" aria-label="Permutation-Invariant Set Autoencoders with Fixed-Size Embeddings for Multi-Agent Learning">
+        <img src="" alt="Permutation-Invariant Set Autoencoders with Fixed-Size Embeddings for Multi-Agent Learning" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://dl.acm.org/doi/abs/10.5555/3545946.3598823" class="citation-title">
+        Permutation-Invariant Set Autoencoders with Fixed-Size Embeddings for Multi-Agent Learning
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">International Conference on Autonomous Agents and Multiagent Systems</span>
+         · 
+        <span class="citation-date">30 May 2023</span>
+         · 
+        <span class="citation-id">https://dl.acm.org/doi/abs/10.5555/3545946.3598823</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://openreview.net/forum?id=chDrutUTs0K" class="citation-image" aria-label="POPGym: Benchmarking Partially Observable Reinforcement Learning">
+        <img src="" alt="POPGym: Benchmarking Partially Observable Reinforcement Learning" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://openreview.net/forum?id=chDrutUTs0K" class="citation-title">
+        POPGym: Benchmarking Partially Observable Reinforcement Learning
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven Morad, Ryan Kortvelesy, Matteo Bettini, Stephan Liwicki, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Eleventh International Conference on Learning Representations</span>
+         · 
+        <span class="citation-date">01 Feb 2023</span>
+         · 
+        <span class="citation-id">https://openreview.net/forum?id=chDrutUTs0K</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2022">2022</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gt8d6n" class="citation-image" aria-label="A Framework for Real-World Multi-Robot Systems Running Decentralized GNN-Based Policies">
+        <img src="" alt="A Framework for Real-World Multi-Robot Systems Running Decentralized GNN-Based Policies" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gt8d6n" class="citation-title">
+        A Framework for Real-World Multi-Robot Systems Running Decentralized GNN-Based Policies
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jan Blumenkamp, Steven Morad, Jennifer Gielis, Qingbiao Li, Amanda Prorok
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">2022 International Conference on Robotics and Automation (ICRA)</span>
+         · 
+        <span class="citation-date">23 May 2022</span>
+         · 
+        <span class="citation-id">doi:10.1109/ICRA46639.2022.9811744</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2021">2021</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gjzmwg" class="citation-image" aria-label="Embodied Visual Navigation With Automatic Curriculum Learning in Real Environments">
+        <img src="" alt="Embodied Visual Navigation With Automatic Curriculum Learning in Real Environments" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gjzmwg" class="citation-title">
+        Embodied Visual Navigation With Automatic Curriculum Learning in Real Environments
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven D. Morad, Roberto Mecca, Rudra P. K. Poudel, Stephan Liwicki, Roberto Cipolla
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">IEEE Robotics and Automation Letters</span>
+         · 
+        <span class="citation-date">01 Apr 2021</span>
+         · 
+        <span class="citation-id">doi:10.1109/LRA.2020.3048662</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2020">2020</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gt8d34" class="citation-image" aria-label="Improving Visual Feature Extraction in Glacial Environments">
+        <img src="" alt="Improving Visual Feature Extraction in Glacial Environments" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gt8d34" class="citation-title">
+        Improving Visual Feature Extraction in Glacial Environments
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven D. Morad, Jeremy Nash, Shoya Higa, Russell Smith, Aaron Parness, Kobus Barnard
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">IEEE Robotics and Automation Letters</span>
+         · 
+        <span class="citation-date">01 Apr 2020</span>
+         · 
+        <span class="citation-id">doi:10.1109/LRA.2019.2959490</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2019">2019</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gt8d6p" class="citation-image" aria-label="A Spring Propelled Extreme Environment Robot for Off-World Cave Exploration">
+        <img src="" alt="A Spring Propelled Extreme Environment Robot for Off-World Cave Exploration" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gt8d6p" class="citation-title">
+        A Spring Propelled Extreme Environment Robot for Off-World Cave Exploration
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Steven D. Morad, Thomas Dailey, Leonard Dean Vance, Jekan Thangavelautham
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">2019 IEEE Aerospace Conference</span>
+         · 
+        <span class="citation-date">01 Mar 2019</span>
+         · 
+        <span class="citation-id">doi:10.1109/AERO.2019.8741609</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<h3 id="grid-of-blog-posts">Grid of blog posts</h3>
+
+<div class="grid" data-style="">
+  
+
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="cols">Cols</h2>
+
+<h3 id="text">Text</h3>
+
+<div class="cols" style="--cols: 3">
+  
+    
+    <div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+  
+    
+    <div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis. Id aliquet lectus proin nibh nisl condimentum id venenatis a.</p>
+</div>
+  
+    
+    <div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis. Id aliquet lectus proin nibh nisl condimentum id venenatis a. Tristique magna sit amet purus gravida quis blandit turpis cursus. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. A cras semper auctor neque vitae tempus quam pellentesque nec. At tellus at urna condimentum mattis pellentesque. Ipsum consequat nisl vel pretium. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Integer vitae justo eget magna fermentum iaculis eu non diam. Mus mauris vitae ultricies leo integer malesuada nunc vel. Leo integer malesuada nunc vel risus. Ornare arcu odio ut sem nulla pharetra. Purus semper eget duis at tellus at urna condimentum. Enim neque volutpat ac tincidunt vitae semper quis lectus.</p>
+</div>
+  
+</div>
+
+<h3 id="images">Images</h3>
+
+<div class="cols" style="--cols: 3">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="Fig. 1a">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="Fig. 1a" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Fig. 1a
+
+    </figcaption>
+  
+</figure>
+
+<p>Lorem <em>ipsum</em> dolor <strong>sit</strong> amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="Fig. 1b">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="Fig. 1b" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Fig. 1b
+
+    </figcaption>
+  
+</figure>
+
+<p>Lorem <em>ipsum</em> dolor <strong>sit</strong> amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="Fig. 1c">
+    <img src="/preview/pr-2/images/icon.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="Fig. 1c" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Fig. 1c
+
+    </figcaption>
+  
+</figure>
+
+<p>Lorem <em>ipsum</em> dolor <strong>sit</strong> amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+  
+</div>
+
+<h3 id="code-1">Code</h3>
+
+<div class="cols" style="--cols: 3">
+  
+    
+    <div>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">test</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Lorem ipsum dolor sit amet</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+</div>
+  
+    
+    <div>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">test</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Lorem ipsum dolor sit amet</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+</div>
+  
+    
+    <div>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">test</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Lorem ipsum dolor sit amet</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+</div>
+  
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="search">Search</h2>
+
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
+
+<div class="search-info"></div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="site-search">Site Search</h2>
+
+<form onsubmit="onSiteSearchSubmit(event)">
+  <input type="text" name="query" placeholder="Search site with Google">
+  <button type="submit" class="button" aria-label="search site">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</form>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg')" data-dark="false" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:smorad@um.edu.mo" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0000-0002-8413-2953" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=KvCgriAAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/smorad" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://twitter.com/YourLabHandle" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://youtube.com/YourLabChannel" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
+      <i class="icon fa-brands fa-youtube"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2025
+    BOLT
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
